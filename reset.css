@@ -1,0 +1,95 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set core body defaults */
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove hyperlink decoration */
+a {
+    text-decoration: none;
+}
+
+/* Remove outline on active links */
+a:active,
+a:focus {
+    outline: 0;
+}
+
+/* Reset heading sizes */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Reset form elements */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Standardize default spacing in forms */
+button,
+input,
+select,
+textarea {
+    /* Remove IE margin */
+    margin: 0;
+}
+
+/* Reset button styling */
+button {
+    /* Correct text wrapping in Firefox 36 */
+    overflow: visible;
+}
+
+/* Define consistent border, margin, padding */
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove border when inside fieldset in IE 8/9/10 */
+input,
+textarea {
+    /* Remove excess padding and border in Firefox 4+ */
+    padding: 0;
+    border: 0;
+}
