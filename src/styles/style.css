@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar_navigation {
@@ -36,7 +37,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 
@@ -70,7 +70,6 @@ body {
     border: 0;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -105,7 +104,6 @@ body {
 .section-playlist .section-playlist_content{
     display: flex;
     flex-direction: column;
-    font-family: "DM Sans",sans-serif;
 }
 
 .section-playlist_content .text{
@@ -129,7 +127,6 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -164,4 +161,93 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.foot{
+    margin: 12px;
+    padding: 2px 40px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px  12px #2b2b2b8f;
+    right:0;
+    left: 0;
+    bottom:0;
+    background: linear-gradient(130deg , rgb(212, 20, 139) , rgb(180, 107, 168) , rgb(5, 105, 255));
+    
+}
+footer .footer__content{
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    
+    
+    
+}
+
+footer .footer__content .text{
+    padding: 2px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .footer__content .title{
+    font-size: 12px;
+    padding: 2px;
+    font-weight: 800;
+}
+
+.foot .footer__button{
+    color: #000;
+    border-radius: 80px;
+    background: white;
+    align-items:center;
+    cursor:pointer;
+    
+    margin:20px 20px 20px 20px;
+    
+    padding: 14px 30px;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.footer__button:hover{
+    box-shadow: 0px 0px 0px 5px #fff;
+    text-shadow: 0px 0px 0px  #000;
+}
+
+
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 12px;
+    display: flex;
+    
+}
+::-webkit-scrollbar-thumb{
+    background:#121515;
+    border: none;
+    border-radius: 12px;
+    width: 2px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#878787;
+}
+::-webkit-scrollbar-thumb:active{
+    background: #e3e3e3;
+}
+::-webkit-scrollbar-corner{
+    border: none;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-track{
+    border: none;
+    background-color: transparent;
+}
+::-webkit-scrollbar-button{
+    background-color: transparent;
 }
